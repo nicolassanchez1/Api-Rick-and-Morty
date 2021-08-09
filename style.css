@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+:root{
+    --rick-font :'Creepster', cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 50px 10px 50px;
+    background: #f2f2f2;
+    font-family: var(--rick-font);
+}
+
+.container-cards{
+    max-width: 1200px;
+    margin: 20px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+.cont-card{
+    background: #ececec;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    height: 300px;
+}
+.info{
+    margin: 0px auto;
+    text-align: center;
+}
+.info h2 {
+    font-size: 48px;
+    color: #9fcb6c;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.info p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
